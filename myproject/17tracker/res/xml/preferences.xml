@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+         <PreferenceCategory
+                android:title="Main setting">
+                <CheckBoxPreference
+                        android:title="Use notification"
+                        android:defaultValue="false"
+                        android:icon="@drawable/messages"
+                        android:summary="When change the status of the parcel, you will see a notification"
+                        android:key="checkboxPref" />
+                <CheckBoxPreference
+                        android:title="Use theme"
+                        android:defaultValue="false"
+                        android:icon="@drawable/pref"
+                        android:summary="Use graphic design (change in appearance)"
+                        android:key="checkboxPref2" />
+              <CheckBoxPreference
+                        android:title="Automatic update"
+                        android:defaultValue="false"
+                        android:icon="@drawable/time"
+                        android:summary="Automatic status update"
+                        android:key="checkboxPref1"/>
+                <ListPreference
+                        android:title="Refresh interval"
+                        android:summary="Set the refresh interval parcels"
+                        android:key="listPref"
+                        android:icon="@drawable/preferencessystestime"
+                        android:defaultValue="digiGreen"
+                        android:entries="@array/listArray"
+                        android:entryValues="@array/listValues" />
+          </PreferenceCategory>
+        <PreferenceCategory
+                android:title="Second setting">
+        <Preference
+                android:title="Leave a review :)"
+                android:icon="@drawable/actions"
+                android:summary="I'll be very grateful if you leave a review"
+                android:key="customPref" />
+        <Preference
+                android:title="Buy full version now"
+                android:icon="@drawable/buynow"
+                android:summary="Buy for open all options"
+                android:key="customPref1" />
+        </PreferenceCategory>
+</PreferenceScreen>

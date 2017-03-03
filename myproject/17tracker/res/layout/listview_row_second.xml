@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+  <ScrollView 
+      android:id="@+id/scroll" 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+	 <RelativeLayout
+	        android:id="@+id/linearLayout1"
+	        android:layout_width="match_parent"
+	        android:layout_height="60dp"
+	        android:orientation="vertical" android:padding="5dp">
+	                <TextView
+	                    android:id="@+id/track_second"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_below="@+id/name_second"
+	                    android:layout_toRightOf="@+id/imagebox"
+	                    android:text="Small Text"
+	                    android:textAppearance="?android:attr/textAppearanceSmall"
+	                    android:textColor="#737373" />
+
+	                <TextView
+	                    android:id="@+id/name_second"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignTop="@+id/imagebox"
+	                    android:layout_toRightOf="@+id/imagebox"
+	                    android:text="Medium Text"
+	                    android:textAppearance="?android:attr/textAppearanceMedium"
+	                    android:textColor="#0b6693" />
+
+	    </RelativeLayout>
+  </ScrollView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">17Tracker</string>
+    <string name="action_settings">Settings</string>
+    <string name="phone">Add</string>
+    <string name="info">Info</string>
+    <string name="settings">Settings</string>
+    <string name="refresh">Refresh all</string>
+    <string name="str_action1">Edit</string>
+    <string name="str_action2">Delete</string>
+</resources>
